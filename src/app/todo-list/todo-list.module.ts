@@ -1,17 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+
 import { IonicModule } from '@ionic/angular';
-import { HomePageRoutingModule } from './home-routing.module';
-import { HomePage } from './home.page';
+
+import { TodoListPageRoutingModule } from './todo-list-routing.module';
+
+import { TodoListPage } from './todo-list.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    TodoListPageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [TodoListPage]
 })
-export class HomePageModule {}
+export class TodoListPageModule {}
